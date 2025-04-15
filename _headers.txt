@@ -3,7 +3,11 @@
   Content-Type: application/javascript
   Cache-Control: public, max-age=31536000, immutable
 
+<<<<<<< HEAD
 /*.wasm.br
+=======
+/publish.wasm.br
+>>>>>>> 01fb522f41470e30d4bde82f8e50b5a20b1709bf
   Content-Encoding: br
   Content-Type: application/wasm
   Cache-Control: public, max-age=31536000, immutable
