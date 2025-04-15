@@ -6,10 +6,6 @@
   Content-Encoding: br
   Content-Type: application/javascript
 
-/publish.loader.js.br
-  Content-Encoding: br
-  Content-Type: application/javascript
-
 /publish.wasm.br
   Content-Encoding: br
   Content-Type: application/wasm
