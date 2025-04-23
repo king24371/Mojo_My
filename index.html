@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Unity WebGL Player | Mojo</title>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
     <link rel="shortcut icon" href="TemplateData/img/favicon.ico">
     <link rel="stylesheet" href="TemplateData/css/style.css">
 </head>
@@ -136,11 +137,11 @@
 		var isChrome =  isIOSChrome || (isChromium !== null && typeof isChromium !== "undefined" && vendorName === "Google Inc." && isOpera === false && isIEedge === false);
 		
 		var buildUrl = "Build";
-		var loaderUrl = buildUrl + "/publish.loader.js";
+		var loaderUrl = buildUrl + "/Mojo_BurstDebugInformation_DoNotShip.loader.js";
 		var config = {
-        dataUrl: buildUrl + "/publish.data.br",
-        frameworkUrl: buildUrl + "/publish.framework.js.br",
-        codeUrl: buildUrl + "/publish.wasm.br",
+        dataUrl: buildUrl + "/Mojo_BurstDebugInformation_DoNotShip.data.br",
+        frameworkUrl: buildUrl + "/Mojo_BurstDebugInformation_DoNotShip.framework.js.br",
+        codeUrl: buildUrl + "/Mojo_BurstDebugInformation_DoNotShip.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Mojo",
